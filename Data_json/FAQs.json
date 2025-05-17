@@ -1,0 +1,172 @@
+{
+    "faqs": [
+        {
+            "question": "Is Jain food available in BBQ Nation?",
+            "answer": "Yes, Jain food is available but the variety will be limited. Please inform the outlet team upon arrival and specify the number of guests and whether it's for lunch or dinner. Advance notice is recommended for better assistance.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Does Barbeque Nation serve Halal food?",
+            "answer": "Barbeque Nation states that they serve Halal meat in all outlets. However, there is no official certification from a recognized Halal authority, so customers seeking Halal food should verify directly with the outlet for the latest information.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Do you have any proof / Certificate for Halal?",
+            "answer": "The brand claims to have Halal certificates at outlets, but as of now, there is no recognized Halal certification for the chain as a whole. Please check with the specific outlet for documentation if required.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "What is the menu for today?",
+            "answer": "Please ask the outlet for today's menu or refer to the official Barbeque Nation app or website for menu details.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Is outside Alcoholic drink allowed in Barbeque Nation outlet?",
+            "answer": "No, outside alcoholic drinks are not allowed. Barbeque Nation serves drinks as per their own ala carte menu.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Can I get the drinks details through mail?",
+            "answer": "Yes, you can view the drinks menu on the Barbeque Nation app or request it by providing your email ID to have the details sent to you.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Does Barbeque Nation have ala carte menu for food?",
+            "answer": "For dine-in, only unlimited buffet is served. Ala carte menu is available only for takeaway and delivery services.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Can I get a particular dish once I reach the outlet? Can I customize the menu?",
+            "answer": "Taste adjustments (such as spice level) can be made. For additional dishes outside the menu, check with the branch for availability.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Does menu remain same for all the outlets?",
+            "answer": "The menu is standard across all Barbeque Nation branches, though some local variations or promotions may exist.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "What type of fish do Barbeque Nation serve?",
+            "answer": "Barbeque Nation serves BASA fish, which is boneless.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "What type of prawns do Barbeque Nation serve?",
+            "answer": "They serve medium-sized prawns, also called Zinga prawns.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "What are the types of Ice-cream do Barbeque Nation serve?",
+            "answer": "They serve two flavors of ice cream: Vanilla and Strawberry.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Flavor of Kulfis",
+            "answer": "Six flavors are available: Strawberry, Malai, Chocolate, Kesar Badam, Paan, and Mango.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Is there any change in menu for lunch & dinner?",
+            "answer": "No, the menu remains the same for both lunch and dinner.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "What type of biryani do you serve? Will I get mutton biryani?",
+            "answer": "Only chicken biryani is served; mutton biryani is not available.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Do you serve alcoholic drinks in Barbeque Nation?",
+            "answer": "Alcoholic drinks are available as per the ala carte menu, subject to local licensing and outlet policy.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Can I have only drinks in Barbeque Nation? And can I pay only for drink?",
+            "answer": "No, only drinks cannot be ordered without the buffet.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Do you serve Kulcha, roti, naan roti?",
+            "answer": "Yes, kulcha, roti, and naan are served.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Is Pizza available in menu?",
+            "answer": "No, pizza is not available in the menu.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Is Hukkah available in Barbeque Nation outlet?",
+            "answer": "No, Hukkah is not available in Barbeque Nation outlets.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Do we serve jataka food in Barbeque Nation?",
+            "answer": "No, Jataka food is not served.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "What type of mutton do you serve for starters?",
+            "answer": "Mutton Seekh Kebab is served for starters.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Does Barbeque Nation serve goat or sheep for mutton?",
+            "answer": "Goat meat is used for mutton at Barbeque Nation.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        },
+        {
+            "question": "Do you have Crab in Menu?",
+            "answer": "No, crab is not available. Only fish and prawns are offered in seafood.",
+            "tags": [
+                "Menu & Drinks"
+            ]
+        }
+    ]
+}

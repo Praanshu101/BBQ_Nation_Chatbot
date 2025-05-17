@@ -1,0 +1,1332 @@
+[
+    {
+        "branch": {
+            "name": "Bangalore : JP Nagar",
+            "last_modified": "2024-09-30T12:18:00+05:30",
+            "notice": "2nd Oct outlet close for full day due to Gandhi Jayanthi. Suggest nearby location.",
+            "address": {
+                "address_line": "67, 3rd Floor, 6th B Main, Phase III, J P Nagar",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "pincode": "560078",
+                "country": "India"
+            },
+            "landmark": null,
+            "contact_numbers": [
+                "7090757107",
+                "7353535557",
+                "7353535557"
+            ],
+            "facilities": {
+                "bar": true,
+                "valet_parking": true,
+                "baby_chair": false,
+                "parking_assistance": true,
+                "lift_availability": false,
+                "pdr_availability": false,
+                "pdr_capacity": null,
+                "pdr_minimum_pax_required": null
+            },
+            "timings": {
+                "monday_to_friday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                },
+                "saturday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                },
+                "sunday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                }
+            },
+            "instructions": {
+                "monday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "tuesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "wednesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "thursday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "friday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "saturday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "sunday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                }
+            },
+            "offers": {
+                "early_bird_offer": false,
+                "kitty_party_offer": false,
+                "student_offer": false,
+                "five_plus_one_buffet_offer": false,
+                "army_offer": false,
+                "drinks_offer": false
+            },
+            "additional_information": {
+                "complimentary_drinks": "Lunch / Monday to Saturday / 1 Round / Soft drink",
+                "food_festival": false
+            },
+            "nearest_outlets": [
+                {
+                    "name": "Gopalan Mall JP Nagar",
+                    "distance_km": 1.2,
+                    "address": "Gopalan Innovation Mall, 2nd floor, 3rd phase, JP Nagar, Bennerghatta Road, Bangalore 560076, Karnataka"
+                },
+                {
+                    "name": "Koramangala 7th Block",
+                    "distance_km": 6.0,
+                    "address": "118, 1st Floor, 80 Feet Rd, KHB Colony, 7th Block, Koramangala, Bengaluru"
+                }
+            ],
+            "reference_url": "https://barbequenation.freshservice.com/support/solutions/articles/27000026324-Bangalore-JP-Nagar"
+        }
+    },
+    {
+        "branch": {
+            "name": "Bangalore / Bengaluru - Indiranagar",
+            "last_modified": "2024-09-30T12:21:00+05:30",
+            "notice": "2nd Oct outlet close for full day due to Gandhi Jayanthi. Suggest nearby location.",
+            "address": {
+                "address_line": "No.4005, HAL 2nd stage, 100 feet road, Indiranagar",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "pincode": "560038",
+                "country": "India"
+            },
+            "landmark": null,
+            "contact_numbers": [
+                "7892263996",
+                "7090757068",
+                "7090757068"
+            ],
+            "facilities": {
+                "bar": true,
+                "valet_parking": true,
+                "baby_chair": true,
+                "parking_assistance": null,
+                "lift_availability": true,
+                "pdr_availability": false,
+                "pdr_capacity": null,
+                "pdr_minimum_pax_required": null
+            },
+            "timings": {
+                "monday_to_friday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                },
+                "saturday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                },
+                "sunday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                }
+            },
+            "instructions": {
+                "monday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "tuesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "wednesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "thursday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "friday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "saturday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "sunday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                }
+            },
+            "offers": {
+                "early_bird_offer": false,
+                "kitty_party_offer": false,
+                "student_offer": false,
+                "five_plus_one_buffet_offer": false,
+                "army_offer": false,
+                "drinks_offer": false
+            },
+            "additional_information": {
+                "complimentary_drinks": "Lunch / Monday to Saturday / 1 Round / Soft drink or Mocktail",
+                "food_festival": false
+            },
+            "nearest_outlets": [
+                {
+                    "name": "Lido Mall Mg Road",
+                    "distance_km": 4.1,
+                    "address": "1/4, Ground Floor, Lido Mall, Swami Vivekananda Road, Halasuru, Bengaluru, Karnataka 560008, India"
+                },
+                {
+                    "name": "Koramangala 7th Block",
+                    "distance_km": 5.8,
+                    "address": "118, 1st Floor, 80 Feet Rd, KHB Colony, 7th Block, Koramangala, Bengaluru"
+                }
+            ],
+            "reference_url": "https://barbequenation.freshservice.com/support/solutions/articles/27000026323-Bangalore-Bengaluru-Indiranagar"
+        }
+    },
+    {
+        "branch": {
+            "name": "Bangalore : Electronic City",
+            "last_modified": "2024-09-08T13:50:00+05:30",
+            "notice": null,
+            "address": {
+                "address_line": "99, 14th Cross Road, Neeladri Nagar, Electronics City Phase 1, Electronic City",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "pincode": "560100",
+                "country": "India"
+            },
+            "landmark": null,
+            "contact_numbers": [
+                "7090757126",
+                "7090757059",
+                "7090757126"
+            ],
+            "facilities": {
+                "bar": false,
+                "valet_parking": "Self / Chargeable",
+                "baby_chair": true,
+                "parking_assistance": null,
+                "lift_availability": true,
+                "pdr_availability": false,
+                "pdr_capacity": null,
+                "pdr_minimum_pax_required": null
+            },
+            "timings": {
+                "monday_to_friday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                },
+                "saturday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                },
+                "sunday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                }
+            },
+            "instructions": {
+                "monday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "tuesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "wednesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "thursday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "friday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "saturday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "sunday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                }
+            },
+            "offers": {
+                "early_bird_offer": false,
+                "kitty_party_offer": false,
+                "student_offer": false,
+                "five_plus_one_buffet_offer": false,
+                "army_offer": false,
+                "drinks_offer": false
+            },
+            "additional_information": {
+                "complimentary_drinks": "Lunch / Monday to Saturday / 1 Round / Soft drink or Mocktail",
+                "food_festival": false
+            },
+            "nearest_outlets": [],
+            "reference_url": "https://barbequenation.freshservice.com/support/solutions/articles/27000026308-Bangalore-Electronic-City"
+        }
+    },
+    {
+        "branch": {
+            "name": "Bangalore : Koramangala 1st Block",
+            "last_modified": "2024-09-30T12:19:00+05:30",
+            "notice": "2nd Oct outlet close for full day due to Gandhi Jayanthi. Suggest nearby location.",
+            "address": {
+                "address_line": "1st Cross Rd, 1st Block Koramangala, Koramangala",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "pincode": "560034",
+                "country": "India"
+            },
+            "landmark": null,
+            "contact_numbers": [
+                "9071399811",
+                "9071399812",
+                "9071772467"
+            ],
+            "facilities": {
+                "bar": true,
+                "valet_parking": true,
+                "baby_chair": true,
+                "parking_assistance": true,
+                "lift_availability": true,
+                "pdr_availability": false,
+                "pdr_capacity": null,
+                "pdr_minimum_pax_required": null
+            },
+            "timings": {
+                "monday_to_friday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "22:30",
+                        "closing_time": "23:30"
+                    }
+                },
+                "saturday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                },
+                "sunday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "23:55"
+                    }
+                }
+            },
+            "instructions": {
+                "monday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "tuesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "wednesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "thursday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "friday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "saturday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "sunday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                }
+            },
+            "offers": {
+                "early_bird_offer": false,
+                "kitty_party_offer": false,
+                "student_offer": false,
+                "five_plus_one_buffet_offer": false,
+                "army_offer": false,
+                "drinks_offer": false
+            },
+            "additional_information": {
+                "complimentary_drinks": "Lunch / Monday to Saturday / 1 Round / Soft drink or Mocktail",
+                "food_festival": false
+            },
+            "nearest_outlets": [
+                {
+                    "name": "Koramangala 7th block",
+                    "distance_km": 3.7,
+                    "address": "118, 1st Floor, 80 Feet Rd, KHB Colony, 7th Block, Koramangala, Bengaluru"
+                },
+                {
+                    "name": "Indiranagar",
+                    "distance_km": 5.9,
+                    "address": "No.4005, HAL 2nd stage, 100 feet road, Indiranagar, Bangalore- 560038"
+                }
+            ],
+            "reference_url": "https://barbequenation.freshservice.com/support/solutions/articles/27000026327-Bangalore-Koramangala-1st-Block"
+        }
+    },
+    {
+        "branch": {
+            "name": "New Delhi - Connaught Place / CP / cp",
+            "last_modified": "2024-12-11T03:24:00+05:30",
+            "notice": null,
+            "address": {
+                "address_line": "Munshilal bulding 2nd Floor N-19, Block N, Connaught Place",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "pincode": "110001",
+                "country": "India"
+            },
+            "landmark": null,
+            "contact_numbers": [
+                "7042698057",
+                "8130244992",
+                "8470015488"
+            ],
+            "facilities": {
+                "bar": true,
+                "valet_parking": false,
+                "baby_chair": false,
+                "parking_assistance": false,
+                "lift_availability": true,
+                "pdr_availability": true,
+                "pdr_capacity": 25,
+                "pdr_minimum_pax_required": 20
+            },
+            "timings": {
+                "monday_to_friday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                },
+                "saturday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                },
+                "sunday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:30",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                }
+            },
+            "instructions": {
+                "monday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "tuesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "wednesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "thursday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "friday": {
+                    "2+1": {
+                        "lunch_slot_1": "Take till 12:30",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Take till 12:30",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "saturday": {
+                    "2+1": {
+                        "lunch_slot_1": "Take till 12:30",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Take till 12:30",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "sunday": {
+                    "2+1": {
+                        "lunch_slot_1": "Take till 12:30",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Take till 12:30",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Take till 19:00",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                }
+            },
+            "offers": {
+                "early_bird_offer": false,
+                "kitty_party_offer": false,
+                "student_offer": false,
+                "five_plus_one_buffet_offer": false,
+                "army_offer": false,
+                "drinks_offer": false
+            },
+            "additional_information": {
+                "complimentary_drinks": "Lunch : Monday to Friday / 1 Round / Soft drink or Mocktail",
+                "food_festival": false
+            },
+            "nearest_outlets": [
+                {
+                    "name": "New Friends Colony",
+                    "distance_km": 13,
+                    "address": "Shop No 57A, 1st Floor, Community Center, near Modi Enterprises, New Friends Colony, New Delhi, Delhi 110025"
+                }
+            ],
+            "reference_url": "https://barbequenation.freshservice.com/support/solutions/articles/27000026451-New-Delhi-Connaught-Place-CP-cp"
+        }
+    },
+    {
+        "branch": {
+            "name": "New Delhi - Unity Mall, Janakpuri",
+            "last_modified": "2025-03-12T14:09:00+05:30",
+            "notice": "14th Mar 2025 lunch closed due to Holi. Suggest dinner for any booking.",
+            "address": {
+                "address_line": "Unity One, 2nd Floor, Narang Colony, Chander Nagar, Janakpuri, New Delhi",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "pincode": "110058",
+                "country": "India"
+            },
+            "landmark": null,
+            "contact_numbers": [
+                "9810445315",
+                "9311177719",
+                "7827935431"
+            ],
+            "facilities": {
+                "bar": true,
+                "valet_parking": "Self / Mall Parking / Chargeable",
+                "baby_chair": false,
+                "parking_assistance": null,
+                "lift_availability": true,
+                "pdr_availability": false,
+                "pdr_capacity": null,
+                "pdr_minimum_pax_required": null
+            },
+            "timings": {
+                "monday_to_friday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:00",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                },
+                "saturday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:00",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                },
+                "sunday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:00",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                }
+            },
+            "instructions": {
+                "monday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "tuesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "wednesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "thursday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "friday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "saturday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "sunday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                }
+            },
+            "offers": {
+                "early_bird_offer": false,
+                "kitty_party_offer": "Refer Kitty Offer Tab",
+                "student_offer": "Refer Student Offer Tab",
+                "five_plus_one_buffet_offer": false,
+                "army_offer": false,
+                "drinks_offer": false
+            },
+            "additional_information": {
+                "complimentary_drinks": "Lunch : Monday to Friday / 1 Round / Soft drink or Mocktail",
+                "food_festival": false
+            },
+            "nearest_outlets": [
+                {
+                    "name": "Rajouri Garden",
+                    "distance_km": 6.3,
+                    "address": "A2/41, 3rd Floor, Rajouri Garden, New Delhi 110027"
+                },
+                {
+                    "name": "Paschim Vihar",
+                    "distance_km": 7.8,
+                    "address": "3rd floor, Emaya Mall, New Delhi-110063"
+                }
+            ],
+            "reference_url": "https://barbequenation.freshservice.com/support/solutions/articles/27000026454-New-Delhi-Unity-Mall-Janakpuri"
+        }
+    },
+    {
+        "branch": {
+            "name": "New Delhi - Sector C, Vasant Kunj",
+            "last_modified": "2024-10-24T11:31:00+05:30",
+            "notice": "27th Oct Stop dinner both the slot due to bulk booking. Suggest nearby location.",
+            "address": {
+                "address_line": "Plot No. 11, Local Shopping Center, Pyramid Building, Pocket 7, Sector C, Vasant Kunj",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "pincode": "110070",
+                "country": "India"
+            },
+            "landmark": null,
+            "contact_numbers": [
+                "9717455633",
+                "9717466433",
+                "7303094054"
+            ],
+            "facilities": {
+                "bar": true,
+                "valet_parking": false,
+                "baby_chair": false,
+                "parking_assistance": false,
+                "lift_availability": false,
+                "pdr_availability": false,
+                "pdr_capacity": null,
+                "pdr_minimum_pax_required": null
+            },
+            "timings": {
+                "monday_to_friday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:00",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                },
+                "saturday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:00",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                },
+                "sunday": {
+                    "lunch": {
+                        "opening_time": "12:00",
+                        "last_entry_time": "16:00",
+                        "closing_time": "17:00"
+                    },
+                    "dinner": {
+                        "opening_time": "18:00",
+                        "last_entry_time": "23:00",
+                        "closing_time": "00:00"
+                    }
+                }
+            },
+            "instructions": {
+                "monday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "tuesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "wednesday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "thursday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "friday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "saturday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                },
+                "sunday": {
+                    "2+1": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    },
+                    "3_and_above": {
+                        "lunch_slot_1": "Flexible",
+                        "lunch_slot_2": "Take till last entry.",
+                        "dinner_slot_1": "Flexible",
+                        "dinner_slot_2": "Take till last entry."
+                    }
+                }
+            },
+            "offers": {
+                "early_bird_offer": "Early Dinner : Wednesday to Sunday 18:00 to 18:30",
+                "kitty_party_offer": "Yes / Refer Kitty Offer Tab",
+                "student_offer": "Yes / Refer Student Offer Tab",
+                "five_plus_one_buffet_offer": false,
+                "army_offer": false,
+                "drinks_offer": false
+            },
+            "additional_information": {
+                "complimentary_drinks": "Lunch : Monday to Friday / 1 Round / Soft drink or Mocktail",
+                "food_festival": false
+            },
+            "nearest_outlets": [
+                {
+                    "name": "New Friends Colony",
+                    "distance_km": 13,
+                    "address": "Shop No 57A, 1st Floor, Community Center, near Modi Enterprises, New Friends Colony, New Delhi, Delhi 110025"
+                }
+            ],
+            "reference_url": "https://barbequenation.freshservice.com/support/solutions/articles/27000026461-New-Delhi-Sector-C-Vasant-Kunj"
+        }
+    }
+]
