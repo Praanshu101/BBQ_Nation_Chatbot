@@ -1,0 +1,564 @@
+{
+  "agent_id": "",
+  "channel": "voice",
+  "last_modification_timestamp": 1747492166235,
+  "agent_name": "Conversation Flow Agent",
+  "response_engine": {
+    "type": "conversation-flow",
+    "version": 1,
+    "conversation_flow_id": "conversation_flow_0ba32b9c99ed"
+  },
+  "webhook_url": "https://hook.eu2.make.com/654tqwhl2fidx18cddunqpbbczilg2uu",
+  "language": "en-US",
+  "opt_out_sensitive_data_storage": false,
+  "opt_in_signed_url": false,
+  "end_call_after_silence_ms": 62000,
+  "post_call_analysis_data": [
+    {
+      "type": "string",
+      "name": "Return_data",
+      "description": "After each call or chatbot interaction, extract and return the following fields as a single flat JSON object. \nIf a field is not relevant or not provided, return its value as \"NA\".\n\n{\n  \"modality\": \"Call\" or \"Chatbot\",\n  \"call_time\": \"YYYY-MM-DD HH:MM:SS\" (IST),\n  \"phone_number\": \"10 digit phone number\",\n  \"call_outcome\": \"Enquiry\" or \"Availability\" or \"Post-Booking\" or \"Misc\",\n  \"booking_date\": \"YYYY-MM-DD\" or \"NA\",\n  \"booking_time\": \"HH:MM\" or \"NA\",\n  \"number_of_guests\": \"number\" or \"NA\",\n  \"customer_name\": \"Name\" or \"NA\",\n  \"call_summary\": \"Short summary of the call and next steps, or NA\"\n}\n\nReturn ONLY this JSON object and nothing else.\n"
+    }
+  ],
+  "version": 1,
+  "is_published": false,
+  "version_title": "V1",
+  "post_call_analysis_model": "gpt-4o-mini",
+  "voice_id": "11labs-Cimo",
+  "max_call_duration_ms": 303000,
+  "interruption_sensitivity": 0.8,
+  "responsiveness": 1,
+  "begin_message_delay_ms": 0,
+  "voicemail_detection_timeout_ms": 30000,
+  "allow_user_dtmf": true,
+  "user_dtmf_options": {},
+  "retellLlmData": null,
+  "conversationFlow": {
+    "conversation_flow_id": "conversation_flow_0ba32b9c99ed",
+    "version": 1,
+    "global_prompt": "After each call or chatbot interaction, extract and return the following fields as a single flat JSON object. \nIf a field is not relevant or not provided, return its value as \"NA\".\n\n{\n  \"modality\": \"{{modality}}\",               // \"Call\" or \"Chatbot\"\n  \"call_time\": \"{{call_time}}\",             // IST, e.g., \"2025-01-03 12:44:55\"\n  \"phone_number\": \"{{phone_number}}\",       // 10 digit phone number\n  \"call_outcome\": \"{{call_outcome}}\",       // \"Enquiry\", \"Availability\", \"Post-Booking\", \"Misc\"\n  \"booking_date\": \"{{booking_date}}\",       // YYYY-MM-DD or \"NA\"\n  \"booking_time\": \"{{booking_time}}\",       // HH:MM or \"NA\"\n  \"number_of_guests\": \"{{number_of_guests}}\", // or \"NA\"\n  \"customer_name\": \"{{customer_name}}\",     // or \"NA\"\n  \"call_summary\": \"{{call_summary}}\"        // Short summary, or \"NA\"\n}\n\nReturn ONLY this JSON object and nothing else.\n",
+    "nodes": [
+      {
+        "instruction": {
+          "type": "static_text",
+          "text": "Hello! Welcome to Barbeque Nation. I’m your virtual assistant. How can I assist you today? "
+        },
+        "name": "Welcome Node",
+        "edges": [
+          {
+            "destination_node_id": "node-1747460647840",
+            "id": "edge-1",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants information or asks a question"
+            }
+          },
+          {
+            "destination_node_id": "node-1747460944620",
+            "id": "edge-2",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants to make a new reservation or modify or cancel an existing booking or wants to give feedback"
+            }
+          }
+        ],
+        "start_speaker": "agent",
+        "id": "start-node-1747459406566",
+        "type": "conversation",
+        "display_position": {
+          "x": 331.729046788511,
+          "y": 195.62685911225378
+        }
+      },
+      {
+        "name": "Info",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461419363",
+            "id": "edge-1747460647840",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User has no more query"
+            }
+          },
+          {
+            "destination_node_id": "node-1747461419363",
+            "id": "edge-1747460998942",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants to book"
+            }
+          }
+        ],
+        "id": "node-1747460647840",
+        "type": "conversation",
+        "display_position": {
+          "x": 827.3749785398323,
+          "y": -75.02695186441414
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Inform the customer accurately about Barbeque Nation’s offerings, outlets, menu, timings, or policies using the available knowledge base (FAQs, Data, Menu).\n## Instructions:\n    1. **Invite the customer to ask their question in their own words**:\n        - \"What would you like to know about Barbeque Nation? You can ask about our menu, outlet timings, locations, facilities, or special offers.\"\n    2. **Provide a clear, concise answer using only information from the knowledge base.**\n    3. **If the answer is not found in the knowledge base, politely inform the customer and invite them to rephrase or ask about another topic.**\n    4. **After answering, always ask if the customer needs help with a reservation, modification, or any other enquiry.**\n## Prohibited Actions:\n    - Do not provide information not found in the knowledge base.\n    - Do not guess or make up details about menu, offers, or timings.\n    - Do not use technical terms or internal references.\n## Additional Context:\n    - The knowledge base includes FAQs, detailed outlet Data, and Menu information. Use only these sources for your answers.\n    - Stay in this node if the user asks another question.\n## Example:\n    - \"Barbeque Nation JP Nagar is open from 12:00 PM to 11:00 PM. Would you like to make a reservation, modify a booking, or ask about something else?\"\n"
+        }
+      },
+      {
+        "name": "City",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461706502",
+            "id": "edge-1747460944620",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "city is available"
+            }
+          },
+          {
+            "destination_node_id": "node-1747461582960",
+            "id": "edge-1747461555315",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "city is not available"
+            }
+          }
+        ],
+        "id": "node-1747460944620",
+        "type": "conversation",
+        "display_position": {
+          "x": 829.6185370786121,
+          "y": 447.30635923645497
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Collect the city for which the customer is calling.\n## Instructions:\n    1. **Ask for the city**:\n        - Ask the customer which city’s Barbeque Nation outlet they are interested in.\n        - **Verification**: \n            - Once the city is captured, verify if it is Bengaluru or Delhi. (Bangalore or New Delhi also work).\n## Prohibited Actions:\n    - Do not list all outlets.\n    - Do not proceed if city is not Bengaluru or Delhi.\n## Example:\n    - \"Could you please tell me which city you are interested in? I can assist you with our Bengaluru and Delhi outlets.\"\n"
+        }
+      },
+      {
+        "name": "End",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461486867",
+            "id": "edge-1747461419363",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Conversation is complete"
+            }
+          }
+        ],
+        "id": "node-1747461419363",
+        "type": "conversation",
+        "display_position": {
+          "x": 3954.945946019321,
+          "y": 832.9155110991478
+        },
+        "instruction": {
+          "type": "static_text",
+          "text": "Thank you for contacting Barbeque Nation. Have a great day!\n"
+        }
+      },
+      {
+        "name": "End Call",
+        "id": "node-1747461486867",
+        "type": "end",
+        "display_position": {
+          "x": 4285.1420898165925,
+          "y": 1045.9838149958612
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Politely end the call"
+        }
+      },
+      {
+        "name": "Not available",
+        "edges": [
+          {
+            "destination_node_id": "node-1747460944620",
+            "id": "edge-1747461582960",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants to proceed with either city (Bengaluru (or Bangalore) or Delhi (or New Delhi)."
+            }
+          },
+          {
+            "destination_node_id": "node-1747461419363",
+            "id": "edge-1747461654637",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User does not want to proceed"
+            }
+          }
+        ],
+        "id": "node-1747461582960",
+        "type": "conversation",
+        "display_position": {
+          "x": 927.9656830977195,
+          "y": 1086.2050939024225
+        },
+        "instruction": {
+          "type": "static_text",
+          "text": "I’m sorry, I can currently assist only with our Bengaluru and Delhi outlets. Would you like to proceed with either of these cities?\n"
+        }
+      },
+      {
+        "name": "Outlet",
+        "edges": [
+          {
+            "destination_node_id": "node-1747462155727",
+            "id": "edge-1747461706502",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Outlet exists in knowledge base"
+            }
+          },
+          {
+            "destination_node_id": "node-1747470565423",
+            "id": "edge-1747470544119",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Outlet does not exist in knowledge base."
+            }
+          }
+        ],
+        "id": "node-1747461706502",
+        "type": "conversation",
+        "display_position": {
+          "x": 1283.0041855236836,
+          "y": 685.782602549909
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Collect the outlet of the customer.\n    - Make sure it exists in the knowledge base.\n    - Confirm the outlet once it’s collected.\n## Instructions:\n    1. **Ask for customer's outlet**:\n        - Politely request the outlet name.\n        - If correct, Confirm the outlet by repeating it back and asking if it’s correct.\n## Example:\n    - \"Could you please provide the outlet you’re interested in?\n"
+        }
+      },
+      {
+        "name": "Booking Details",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461830312",
+            "id": "edge-1747461770543",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Details are confirmed"
+            }
+          }
+        ],
+        "id": "node-1747461770543",
+        "type": "conversation",
+        "display_position": {
+          "x": 2461.628591588854,
+          "y": 924.5171952975214
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Collect the booking details from the customer.\n    - Confirm the details once collected.\n## Instructions:\n    1. **Ask for booking details**:\n        - Ask for the date, preferred time, and number of guests.\n        - Verify booking date and time availability with knowledge base (Check for public holidays notice and opening hours) (eg - outlet closed due to Gandhi jayanti).\n If they do not match, inform the user.\n        - Confirm the details if available by repeating them back and asking if they are correct.\n## Example:\n    - \"Could you please provide the date, preferred time, and the number of guests for your reservation?\"\n"
+        }
+      },
+      {
+        "name": "Contact Info",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461933976",
+            "id": "edge-1747461830312",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Once confirmed details"
+            }
+          }
+        ],
+        "id": "node-1747461830312",
+        "type": "conversation",
+        "display_position": {
+          "x": 2914.7000235695077,
+          "y": 929.8418091825516
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Collect the phone number and name of the customer.\n    - Confirm the phone number and name.\n## Instructions:\n    1. **Ask for customer name**:\n        - \"Could you please provide your name?\"\n    2. **Ask for the phone number**:\n        - \"Can you please provide your 10 digit phone number, reciting it clearly without stopping?\"\n        - Validate the phone number.\n    3. **Confirm**:\n        - \"So, {{name}}, your phone number is {{phone_number}}, correct?\"\n## Prohibited Actions:\n    - Do not collect any other information.\n    - Do not proceed without valid phone number.\n"
+        }
+      },
+      {
+        "name": "Confirmation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461419363",
+            "id": "edge-1747461933976",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Information is correct"
+            }
+          }
+        ],
+        "id": "node-1747461933976",
+        "type": "conversation",
+        "display_position": {
+          "x": 3557.865310334995,
+          "y": 1250.0169074239907
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Inform the customer about the reservation details.\n    - Make necessary changes if needed.\n## Instructions:\n    1. **Inform the customer about the reservation details**:\n        - \"Let me confirm your reservation details:\n            - Outlet: {{outlet}}.\n            - Date: {{date}}.\n            - Time: {{time}}.\n            - Number of guests: {{guests}}.\n            - Name: {{name}}.\n            - Phone: {{phone_number}}.\n        Is everything correct before I proceed to book your table? Do you have any special requests?\" \n2. **Offer complimentary services based on outlet after referring to knowledge base**\n3. **Confirm special requests if any before proceeding**"
+        }
+      },
+      {
+        "name": "Discover",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461770543",
+            "id": "edge-1747462155727",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants new booking"
+            }
+          },
+          {
+            "destination_node_id": "node-1747462308428",
+            "id": "edge-1747462215567",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants to modify/cancel a booking"
+            }
+          },
+          {
+            "destination_node_id": "node-1747462995585",
+            "id": "edge-1747462236264",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants to give feedback"
+            }
+          }
+        ],
+        "id": "node-1747462155727",
+        "type": "conversation",
+        "display_position": {
+          "x": 1732.979464905569,
+          "y": 873.1306785681093
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Just to confirm, you mentioned you’d like to {{user_intent}}. Is that right?"
+        }
+      },
+      {
+        "name": "Modify/Cancel Collect Date Time",
+        "edges": [
+          {
+            "destination_node_id": "node-1747462454738",
+            "id": "edge-1747462308428",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Information is confirmed"
+            }
+          }
+        ],
+        "id": "node-1747462308428",
+        "type": "conversation",
+        "display_position": {
+          "x": 2294.6241579158864,
+          "y": 1456.3126479478801
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Collect the reservation details (date and time) from the customer.\n    - Confirm the reservation details once collected.\n## Instructions:\n    1. **Ask for reservation details**:\n        - \"Could you please provide the date and time of your reservation at Barbeque Nation?\"\n- Verify booking date and time availability with knowledge base (Check for public holidays notice and opening hours).\n If they do not match, inform the user.\n    2. **Confirm the details if available**:\n        - \"Just to confirm, your reservation is for {{date}} at {{time}}, correct?\"\n## Prohibited Actions:\n    - Do not collect any other information at this step.\n"
+        }
+      },
+      {
+        "name": "Name collection",
+        "edges": [
+          {
+            "destination_node_id": "node-1747462526799",
+            "id": "edge-1747462454738",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wanted to modify the booking"
+            }
+          },
+          {
+            "destination_node_id": "node-1747462511953",
+            "id": "edge-1747462487842",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "user wanted to cancel a booking"
+            }
+          }
+        ],
+        "id": "node-1747462454738",
+        "type": "conversation",
+        "display_position": {
+          "x": 2661.0190720388578,
+          "y": 1710.7516841682275
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Collect the name of the customer.\n    - Confirm the name once collected.\n## Instructions:\n    1. **Ask for customer name**:\n        - \"Could you please provide the name under which the reservation was made?\"\n    2. **Confirm the name**:\n        - \"Thank you. The reservation is under the name {{name}}, correct?\"\n## Prohibited Actions:\n    - Do not collect any other information at this step.\n"
+        }
+      },
+      {
+        "name": "Cancellation",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461419363",
+            "id": "edge-1747462511953",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Confirm the details"
+            }
+          }
+        ],
+        "id": "node-1747462511953",
+        "type": "conversation",
+        "display_position": {
+          "x": 3090,
+          "y": 1680
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Confirm the cancellation request with the customer.\n## Instructions:\n    1. **Confirm cancellation**:\n        - \"Just to confirm, do you want to cancel your reservation at Barbeque Nation for {{date}} at {{time}} under the name {{name}}?\"\n## Prohibited Actions:\n    - Do not cancel without explicit confirmation.\n"
+        }
+      },
+      {
+        "name": "Modification collect date time",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461933976",
+            "id": "edge-1747462526799",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Confirm the details"
+            }
+          }
+        ],
+        "id": "node-1747462526799",
+        "type": "conversation",
+        "display_position": {
+          "x": 3090.0420905827127,
+          "y": 2211.9411889744288
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Collect the new reservation details from the customer.\n    - Confirm the modification details once collected.\n## Instructions:\n    1. **Ask for modification details**:\n        - \"What would you like to change in your reservation? Please provide the new date and/or time.\"\n    2. **Confirm the new details**:\n        - \"To confirm, you want to update your reservation to {{new_date}} at {{new_time}}, correct?\"\n## Prohibited Actions:\n    - Do not proceed without confirming the new details.\n"
+        }
+      },
+      {
+        "name": "Feedback",
+        "edges": [
+          {
+            "destination_node_id": "node-1747463192085",
+            "id": "edge-1747462995585",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants to escalate"
+            }
+          },
+          {
+            "destination_node_id": "node-1747472474707",
+            "id": "edge-1747463247300",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User is satisfied"
+            }
+          }
+        ],
+        "id": "node-1747462995585",
+        "type": "conversation",
+        "display_position": {
+          "x": 2176.5559620285453,
+          "y": 307.383023597279
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "## OBJECTIVES:\n    - Collect the feedback or complaint from the customer.\n    - Confirm the feedback or complaint once collected.\n## Instructions:\n    1. **Ask for customer's feedback or complaint**:\n        - \"We value your opinion! Please share your feedback or let us know if you have any complaints about your experience at Barbeque Nation.\"\n    2. **Confirm the feedback/complaint**:\n        - \"Thank you for sharing your feedback. Would you like us to escalate this to our management team or arrange a callback for you?\"\n## Prohibited Actions:\n    - Do not ask for booking or personal details unless the customer offers them.\n    - Do not offer compensation unless explicitly instructed.\n"
+        }
+      },
+      {
+        "name": "Apologise and escalate",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461419363",
+            "id": "edge-1747463192085",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Confirm date time"
+            }
+          }
+        ],
+        "id": "node-1747463192085",
+        "type": "conversation",
+        "display_position": {
+          "x": 2943.537950088197,
+          "y": 343.7021164003373
+        },
+        "instruction": {
+          "type": "static_text",
+          "text": "We’re sorry to hear about your experience. I will escalate your feedback to our management team right away.\nCould you please provide your preferred callback date and time so our team can reach out to you?\n"
+        }
+      },
+      {
+        "name": "Outlet not found",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461706502",
+            "id": "edge-1747470565423",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User wants to proceed with another outlet"
+            }
+          },
+          {
+            "destination_node_id": "node-1747461419363",
+            "id": "edge-1747470681138",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "User does not want to proceed with another outlet."
+            }
+          }
+        ],
+        "id": "node-1747470565423",
+        "type": "conversation",
+        "display_position": {
+          "x": 1500.7142857142858,
+          "y": 1405.7142857142856
+        },
+        "instruction": {
+          "type": "static_text",
+          "text": "I’m sorry, I cannot assist you with this outlet. Would you like to proceed with another?"
+        }
+      },
+      {
+        "name": "Apologise",
+        "edges": [
+          {
+            "destination_node_id": "node-1747461419363",
+            "id": "edge-1747472474707",
+            "transition_condition": {
+              "type": "prompt",
+              "prompt": "Go next"
+            }
+          }
+        ],
+        "id": "node-1747472474707",
+        "type": "conversation",
+        "display_position": {
+          "x": 3495,
+          "y": 780
+        },
+        "instruction": {
+          "type": "prompt",
+          "text": "Apologise again for the inconvinence based on user feedback. Make sure to be empathetic and make the user feel heard."
+        }
+      }
+    ],
+    "start_node_id": "start-node-1747459406566",
+    "start_speaker": "agent",
+    "model_choice": {
+      "type": "cascading",
+      "model": "gpt-4o-mini"
+    },
+    "knowledge_base_ids": [],
+    "begin_tag_display_position": {
+      "x": 122,
+      "y": 333
+    },
+    "is_published": false
+  },
+  "llmURL": null
+}

@@ -22,7 +22,9 @@ Note: The above links are for local testing.
 
 ### Agent Conversation Flow (Using RetellAI).
 
-Agent Linked Phone Number: 
+Agent Linked Phone Number: - (Requires payment method)
+
+Instead the exported agent (in JSON format) is available in the repository. (`Retell AI Agent\Conversation Flow Agent.json`)
 
 ## BBQ Nation Chatbot API
 
