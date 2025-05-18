@@ -62,6 +62,7 @@ The code for this is included in this repository.
 - Converted all knowledge base pdfs to raw text using python script.
 - Converted this text dump to csv and json form using Perplexity.
 - Wrote the code for the app (using above csv files as data) and used test_api.py to test the endpoints.
+- Deployed the app using FastAPI and uvicorn. (local deployment)
 
 ## Agent Conversation Flow 
 
@@ -74,3 +75,7 @@ An AI-powered agent built specifically for Barbeque Nation, a restaurant chain. 
 ### How it was done:
 
 - Used the above data and converted to formatted and proper text using perplexity.
+- Used this text as knowledge base for the agent.
+- Created the agent using RetellAI.
+- Exported the agent in JSON format for future use.
+- The agent is available in the repository as `Retell AI Agent\Conversation Flow Agent.json`.
